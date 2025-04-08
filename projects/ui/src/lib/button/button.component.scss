@@ -1,0 +1,16 @@
+button {
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius);
+  border: none;
+  cursor: pointer;
+
+  &.primary {
+    background-color: var(--primary);
+    color: white;
+  }
+
+  &.secondary {
+    background-color: var(--secondary);
+    color: black;
+  }
+}
