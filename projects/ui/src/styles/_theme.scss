@@ -1,0 +1,13 @@
+$primary-color: #6200ee;
+$secondary-color: #03dac6;
+$border-radius: 8px;
+
+@mixin theme-colors {
+  --primary: #{$primary-color};
+  --secondary: #{$secondary-color};
+  --radius: #{$border-radius};
+}
+
+:root {
+  @include theme-colors;
+}
